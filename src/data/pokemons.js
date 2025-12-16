@@ -1,4 +1,4 @@
-export const pokemons = [
+const pokemons = [
   {
     id: 1,
     name: "Bulbasaur",
@@ -16,6 +16,8 @@ export const pokemons = [
     name: "Squirtle",
     image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
     type: "water"
-  },
+  }
   // Agregar más pokemons...
 ];
+
+export default pokemons;
